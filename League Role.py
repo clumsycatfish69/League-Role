@@ -36,7 +36,7 @@ def rolePick():
     #this while loop will keep changing secondary until it
     #does not equal primary
     while secondary == primary:
-        secondary = random.randrange(1,6)
+        secondary = random.randrange(1,5)
 
     #if statements for secondary, same as above
     if secondary == 1:
@@ -47,8 +47,7 @@ def rolePick():
         secondaryRole = 'Middle'
     if secondary == 4:
         secondaryRole = 'ADC'
-    if secondary == 5:
-        secondaryRole = 'Support'
+    
     
     print('Secondary Role: ' + secondaryRole)
 
